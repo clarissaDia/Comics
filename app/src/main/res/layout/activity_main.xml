@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/scroll">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:id="@+id/gulp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view"
+        android:background="@color/scroll"
+        >
+    </View>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fumetteria"
+        android:layout_weight="3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/mestre"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indirizzo"
+        android:layout_weight="3"
+        android:textSize="@dimen/text"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apertura"
+        android:layout_weight="3"
+        android:textSize="@dimen/text"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/text"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settimana"
+        android:layout_weight="3"
+        android:textSize="@dimen/text"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sabato"
+        android:layout_weight="3"
+        android:textSize="@dimen/text"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/domenica"
+        android:layout_weight="3"
+        android:textSize="@dimen/text"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:autoLink="web"
+        android:layout_weight="3"
+        android:textSize="@dimen/text"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColorLink="@color/text"/>
+
+</LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+

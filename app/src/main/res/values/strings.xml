@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Comics</string>
+    <string name="fumetteria">Your Comics shop in Venice</string>
+    <string name="indirizzo">Address: Via Rosa 26, 30171 Mestre (VE)</string>
+    <string name="apertura">Opening times:</string>
+    <string name="settimana">MON. - FRI.: Morning 9.00/13.00  Afternoon 15.30/19.30</string>
+    <string name="sabato">SATURDAY: Morning 9.00/13.00  Afternoon 15.30/19.30</string>
+    <string name="domenica">SUNDAY: Morning 10.00/13.00  Afternoon 15.30/19.30</string>
+    <string name="web">www.supergulp.net</string>
+</resources>
